@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/Users/ice/Desktop/DawiniApp/app/src/main/res/drawable/greenbutton.xml" value="0.1855" />
+        <entry key="..\:/Users/ice/Desktop/DawiniApp/app/src/main/res/drawable/textbox.xml" value="0.191" />
+        <entry key="..\:/Users/ice/Desktop/DawiniApp/app/src/main/res/drawable/textbox_border_radius_less.xml" value="0.2695" />
+        <entry key="..\:/Users/ice/Desktop/DawiniApp/app/src/main/res/drawable/textbox_radius30.xml" value="0.2715" />
+        <entry key="..\:/Users/ice/Desktop/DawiniApp/app/src/main/res/font/font.xml" value="0.13703703703703704" />
+        <entry key="..\:/Users/ice/Desktop/DawiniApp/app/src/main/res/layout/activity_main.xml" value="0.25" />
+        <entry key="..\:/Users/ice/Desktop/DawiniApp/app/src/main/res/layout/address_spinner.xml" value="0.31927083333333334" />
+        <entry key="..\:/Users/ice/Desktop/DawiniApp/app/src/main/res/layout/bottom_navigation.xml" value="0.21422101449275363" />
+        <entry key="..\:/Users/ice/Desktop/DawiniApp/app/src/main/res/layout/deliver_medicine.xml" value="0.26666666666666666" />
+        <entry key="..\:/Users/ice/Desktop/DawiniApp/app/src/main/res/layout/deliver_medicine_details.xml" value="0.265625" />
+        <entry key="..\:/Users/ice/Desktop/DawiniApp/app/src/main/res/layout/home_page.xml" value="0.1828125" />
+        <entry key="..\:/Users/ice/Desktop/DawiniApp/app/src/main/res/layout/item_deliver_medicine.xml" value="0.25" />
+        <entry key="..\:/Users/ice/Desktop/DawiniApp/app/src/main/res/layout/item_request_medicine_search.xml" value="0.35833333333333334" />
+        <entry key="..\:/Users/ice/Desktop/DawiniApp/app/src/main/res/layout/item_request_medicine_view_list.xml" value="0.33" />
+        <entry key="..\:/Users/ice/Desktop/DawiniApp/app/src/main/res/layout/login.xml" value="0.265625" />
+        <entry key="..\:/Users/ice/Desktop/DawiniApp/app/src/main/res/layout/register.xml" value="0.25" />
+        <entry key="..\:/Users/ice/Desktop/DawiniApp/app/src/main/res/layout/request_medcine_new_address.xml" value="0.2965811965811966" />
+        <entry key="..\:/Users/ice/Desktop/DawiniApp/app/src/main/res/layout/request_medecine_addresse.xml" value="0.25" />
+        <entry key="..\:/Users/ice/Desktop/DawiniApp/app/src/main/res/layout/request_medicine_1.xml" value="0.25" />
+        <entry key="..\:/Users/ice/Desktop/DawiniApp/app/src/main/res/layout/request_medicine_view_list.xml" value="0.25" />
+        <entry key="..\:/Users/ice/Desktop/DawiniApp/app/src/main/res/menu/bottom_navigation_menu.xml" value="0.35833333333333334" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="Android Studio default JDK" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>

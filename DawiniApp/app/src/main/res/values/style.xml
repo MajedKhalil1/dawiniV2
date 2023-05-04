@@ -1,0 +1,137 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+    <resources>
+    <style name="AppTheme" parent="Theme.AppCompat.Light.NoActionBar"></style>
+
+    <style name="textViewStyle">
+
+    <item name="android:textColor">#FFFFFF</item>
+
+    <item name="android:textStyle">bold</item>
+
+    </style>
+
+    <style name="titleStyle32">
+
+        <item name="android:textColor">#005500</item>
+
+        <item name="android:textStyle">bold</item>
+        <item name="android:textSize">32dp</item>
+
+    </style>
+
+    <style name="titleError">
+
+        <item name="android:textColor">#FF0000</item>
+
+        <item name="android:textStyle">bold</item>
+        <item name="android:textSize">16dp</item>
+
+    </style>
+
+    <style name="CustomSearchView" parent="Widget.AppCompat.SearchView">
+        <item name="android:layout_width">341dp</item>
+        <item name="android:layout_height">70dp</item>
+        <item name="android:background">@drawable/textbox</item>
+        <item name="android:paddingLeft">20dp</item>
+        <item name="android:textColorHint">#898989</item>
+        <item name="android:textSize">18sp</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+
+    <style name="CustomTextBox">
+        <item name="android:layout_width">341dp</item>
+        <item name="android:layout_height">70dp</item>
+        <item name="android:background">@drawable/textbox</item>
+        <item name="android:paddingLeft">20dp</item>
+        <item name="android:textColorHint">#898989</item>
+        <item name ="android:textSize">18dp</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+
+    <style name="CustomTextBox2">
+        <item name="android:layout_width">341dp</item>
+        <item name="android:layout_height">70dp</item>
+        <item name="android:background">@drawable/textbox_border_radius_less</item>
+        <item name="android:paddingLeft">20dp</item>
+        <item name="android:textColorHint">#898989</item>
+        <item name ="android:textSize">18dp</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+
+    <style name="CustomTextBox3">
+        <item name="android:layout_width">341dp</item>
+        <item name="android:layout_height">70dp</item>
+        <item name="android:background">@drawable/textbox_radius15</item>
+        <item name="android:paddingLeft">20dp</item>
+        <item name="android:textColorHint">#898989</item>
+        <item name ="android:textSize">18dp</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+
+    <style name="CustomTextBoxDescription">
+        <item name="android:layout_width">341dp</item>
+        <item name="android:layout_height">100dp</item>
+        <item name="android:background">@drawable/textbox_border_radius_less</item>
+        <item name="android:paddingLeft">20dp</item>
+        <item name="android:paddingTop">20dp</item>
+        <item name="android:textColorHint">#898989</item>
+        <item name ="android:textSize">18dp</item>
+        <item name="android:textStyle">bold</item>
+
+    </style>
+
+    <style name="CustomButton">
+        <item name="android:textColor">#FFFFFF</item>
+        <item name="android:background">@drawable/greenbutton</item>
+
+        <item name ="android:textSize">18dp</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:layout_width">341dp</item>
+        <item name="android:layout_height">70dp</item>
+    </style>
+    <style name="CustomButtonSmall">
+        <item name="android:textColor">#FFFFFF</item>
+        <item name="android:background">@drawable/greenbutton</item>
+        <item name ="android:textSize">18dp</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:layout_width">341dp</item>
+        <item name="android:layout_height">70dp</item>
+    </style>
+    <style name="Qty_Left_Right_Button">
+        <item name="android:textColor">#898989</item>
+
+        <item name ="android:textSize">18dp</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:layout_width">113dp</item>
+        <item name="android:layout_height">70dp</item>
+    </style>
+    <style name="CustomTextView">
+        <item name="android:textColor">#898989</item>
+        <item name ="android:textSize">16dp</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+
+    <style name="CustomTextView18dp">
+        <item name="android:textColor">#898989</item>
+        <item name ="android:textSize">18dp</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+
+    <style name="CustomTextView24dp">
+        <item name="android:textColor">#898989</item>
+        <item name ="android:textSize">26dp</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+
+    <style name="CustomTextViewGreen">
+        <item name="android:textColor">#005500</item>
+        <item name ="android:textSize">16dp</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+    <style name="BottomNavigation">
+        <item name="android:background">#005500</item>
+    </style>
+
+
+    </resources>

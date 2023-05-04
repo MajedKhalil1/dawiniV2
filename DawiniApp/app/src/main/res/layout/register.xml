@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:id="@+id/txtRegister"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="30dp"
+        android:layout_marginTop="70dp"
+        android:text="Register"
+        style="@style/titleStyle32"
+
+        />
+
+    <EditText
+        android:id="@+id/txtFirstName"
+        style="@style/CustomTextBox"
+        android:layout_below="@id/txtRegister"
+        android:layout_marginLeft="30dp"
+        android:layout_marginTop="35dp"
+        android:hint="First Name"
+        />
+
+    <EditText
+        android:id="@+id/txtLastName"
+        style="@style/CustomTextBox"
+        android:layout_below="@id/txtFirstName"
+        android:layout_marginLeft="30dp"
+        android:layout_marginTop="40dp"
+        android:hint="Last Name "
+        />
+
+
+    <EditText
+        android:id="@+id/txtEmail"
+        style="@style/CustomTextBox"
+        android:layout_below="@id/txtLastName"
+        android:layout_marginLeft="30dp"
+        android:layout_marginTop="40dp"
+        android:inputType="textEmailAddress"
+        android:hint="Email"
+        />
+
+    <EditText
+        android:id="@+id/txtPassword"
+        style="@style/CustomTextBox"
+        android:layout_below="@id/txtEmail"
+        android:layout_marginLeft="30dp"
+        android:layout_marginTop="40dp"
+        android:inputType="textPassword"
+        android:hint="Password"
+        />
+
+    <Button
+        android:id="@+id/btnSignIn"
+        style="@style/CustomButton"
+        android:layout_below="@id/txtPassword"
+        android:layout_marginTop="40dp"
+        android:layout_marginLeft="30dp"
+        android:text="Sign In" />
+
+    <TextView
+        android:id="@+id/textAccount"
+        style="@style/CustomTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/btnSignIn"
+        android:layout_marginLeft="50dp"
+        android:layout_marginTop="20dp"
+        android:text="Already Have an account ?" />
+
+    <TextView
+        android:id="@+id/txtLogin"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/btnSignIn"
+        android:layout_toRightOf="@+id/textAccount"
+        android:layout_marginTop="20dp"
+        style ="@style/CustomTextViewGreen"
+        android:text=" Log In" />
+
+</RelativeLayout>

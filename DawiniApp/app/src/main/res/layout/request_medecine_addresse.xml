@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/request_medecine"
+    >
+
+
+    <TextView
+        android:id="@+id/txtAddAddress"
+        style="@style/CustomTextView24dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@id/spinnerAddresse"
+        android:layout_marginLeft="340dp"
+        android:layout_marginBottom="-180dp"
+        android:text="+" />
+
+    <Spinner
+        android:id="@+id/spinnerAddresse"
+        style="@style/CustomTextBox2"
+        android:gravity="center"
+        android:textAlignment="center"
+        android:layout_marginStart="30dp"
+        android:layout_marginTop="180dp"
+        android:inputType="textMultiLine"
+        android:lines="4"
+        android:maxLines="3"
+        android:minLines="1"
+        android:prompt="@string/address_hint"
+        android:spinnerMode="dropdown" />
+
+
+    <EditText
+        android:id="@+id/txtDescrption"
+        style="@style/CustomTextBoxDescription"
+        android:layout_below="@id/spinnerAddresse"
+        android:layout_marginStart="30dp"
+        android:layout_marginTop="40dp"
+        android:autofillHints="Description"
+        android:gravity="top|start"
+        android:hint="Description"
+        android:inputType="textMultiLine"
+        android:lines="4"
+        android:maxLines="3"
+        android:minLines="1" />
+
+
+    <Button
+        android:id="@+id/btnPlaceRequest"
+        style="@style/CustomButton"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="30dp"
+        android:layout_marginBottom="80dp"
+        android:text="Place Request " />
+
+
+    <FrameLayout
+        android:id="@+id/bottom_navigation_container"
+        android:layout_width="match_parent"
+        android:layout_height="55dp"
+        android:layout_alignParentBottom="true">
+
+        <!-- Include the bottom navigation bar layout here -->
+        <include layout="@layout/bottom_navigation" />
+    </FrameLayout>
+
+</RelativeLayout>

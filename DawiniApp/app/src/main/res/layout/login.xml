@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+   android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+
+    <TextView
+        android:id="@+id/txtLogin"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="30dp"
+        android:layout_marginTop="90dp"
+        android:text="Login"
+        style="@style/titleStyle32"
+
+        />
+
+
+    <TextView
+        android:visibility="invisible"
+        android:id="@+id/txtError"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+       android:layout_below="@+id/txtLogin"
+        android:text="Error"
+        android:layout_marginLeft="30dp"
+        android:layout_marginTop="20dp"
+
+        style="@style/titleError"
+
+        />
+
+    <EditText
+        android:id="@+id/txtEmail"
+        style="@style/CustomTextBox"
+        android:layout_below="@id/txtLogin"
+        android:layout_marginLeft="30dp"
+        android:layout_marginTop="70dp"
+        android:inputType="textEmailAddress"
+        android:hint="Email"
+        />
+
+    <EditText
+        android:id="@+id/txtPassword"
+        style="@style/CustomTextBox"
+        android:layout_below="@id/txtEmail"
+        android:layout_marginLeft="30dp"
+        android:layout_marginTop="70dp"
+        android:inputType="textPassword"
+        android:hint="Password"
+        />
+
+    <Button
+        android:id="@+id/btnSignIn"
+        style="@style/CustomButton"
+        android:layout_below="@id/txtPassword"
+        android:layout_marginLeft="30dp"
+        android:layout_marginTop="90dp"
+        android:text="Sign In" />
+
+    <TextView
+        android:id="@+id/textAccount"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/btnSignIn"
+        android:layout_marginLeft="50dp"
+        android:layout_marginTop="74dp"
+        style ="@style/CustomTextView"
+        android:text="Don’t Have an account ? " />
+
+    <TextView
+        android:id="@+id/txtCreate"
+        style="@style/CustomTextViewGreen"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/btnSignIn"
+        android:layout_marginTop="74dp"
+        android:layout_toRightOf="@+id/textAccount"
+        android:text="Create one  " />
+
+</RelativeLayout>

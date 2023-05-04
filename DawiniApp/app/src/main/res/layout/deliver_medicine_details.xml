@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/request_medecine"
+    android:orientation="vertical"
+    android:fitsSystemWindows="true"
+    android:id="@+id/deliverMedicineLayout">
+
+
+    <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        style="@style/CustomTextBox3"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginTop="130dp"
+        android:layout_marginBottom="80dp">
+
+        <TextView
+            android:id="@+id/txtClientName"
+            style="@style/CustomTextView18dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="30dp"
+            android:text="Fatat Tarraf: " />
+
+        <TextView
+            android:id="@+id/txtRequestId"
+            style="@style/CustomTextView18dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="190dp"
+            android:layout_marginTop="30dp"
+            android:layout_toRightOf="@id/txtClientName"
+            android:text="#0001" />
+
+        <TextView
+            android:id="@+id/txtAddress"
+            style="@style/CustomTextView18dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/txtClientName"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="20dp"
+            android:text="Beirut, some street, test bldg, 7th floor" />
+
+        <TextView
+            android:id="@+id/txtMedicineList"
+            style="@style/CustomTextView18dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/txtAddress"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="20dp"
+            android:text="2 Panadol,\n3 Histamed \n4 xanax " />
+
+        <TextView
+            android:id="@+id/txtDescription"
+            style="@style/CustomTextView18dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/txtMedicineList"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="20dp"
+            android:text="Some random description" />
+
+
+        <EditText
+            android:id="@+id/txtComission"
+            style="@style/CustomTextBox2"
+            android:layout_below="@id/txtDescription"
+            android:layout_marginTop="35dp"
+            android:hint="Comission" />
+
+        <FrameLayout
+            android:id="@+id/bottom_navigation_container2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="90dp"
+            android:layout_marginBottom="20dp"
+            android:layout_alignParentBottom="true">
+
+            <Button
+                android:id="@+id/btnDeliver"
+                style="@style/CustomButtonSmall"
+                android:layout_below="@id/txtComission"
+
+                android:layout_alignParentBottom="true"
+                android:text="Deliver" />
+
+        </FrameLayout>
+
+
+
+    </RelativeLayout>
+
+
+    <FrameLayout
+        android:id="@+id/bottom_navigation_container"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true">
+        <include layout="@layout/bottom_navigation" />
+    </FrameLayout>
+
+</RelativeLayout>

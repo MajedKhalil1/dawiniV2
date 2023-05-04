@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/request_medecine">
+
+    <EditText
+        android:id="@+id/txtCity"
+        style="@style/CustomTextBox"
+        android:layout_marginLeft="30dp"
+        android:layout_marginTop="160dp"
+        android:hint="City"
+        />
+
+    <EditText
+        android:id="@+id/txtStreet"
+        style="@style/CustomTextBox"
+        android:layout_below="@id/txtCity"
+        android:layout_marginLeft="30dp"
+        android:layout_marginTop="40dp"
+        android:hint="Street "
+        />
+
+
+    <EditText
+        android:id="@+id/txtBuildingName"
+        style="@style/CustomTextBox"
+        android:layout_below="@id/txtStreet"
+        android:layout_marginLeft="30dp"
+        android:layout_marginTop="40dp"
+        android:inputType="textEmailAddress"
+        android:hint="Building Name"
+        />
+
+    <EditText
+        android:id="@+id/txtFloor"
+        style="@style/CustomTextBox"
+        android:layout_below="@id/txtBuildingName"
+        android:layout_marginLeft="30dp"
+        android:layout_marginTop="40dp"
+        android:inputType="textPassword"
+        android:hint="Floor"
+        />
+
+    <Button
+        android:id="@+id/btnAddAddress"
+        style="@style/CustomButton"
+        android:layout_below="@id/txtFloor"
+        android:layout_marginLeft="30dp"
+        android:layout_marginTop="20dp"
+        android:text="Add" />
+
+
+
+    <FrameLayout
+        android:id="@+id/bottom_navigation_container"
+        android:layout_width="match_parent"
+        android:layout_height="55dp"
+        android:layout_alignParentBottom="true">
+
+        <!-- Include the bottom navigation bar layout here -->
+        <include layout="@layout/bottom_navigation" />
+    </FrameLayout>
+
+</RelativeLayout>
